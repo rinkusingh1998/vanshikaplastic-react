@@ -1,0 +1,308 @@
+@media (max-width:1300px) {
+    .navbar .navbar-nav>li>a{
+        font-size: 13px !important;
+    }
+
+    .left_topbar_div a {
+        font-size: 13px !important;
+
+    }
+
+    .right_topbar_div a{
+        font-size: 13px !important;
+
+    }
+
+    .right_topbar_div b{
+        font-size: 13px !important;
+
+    }
+
+    
+.right_topbar_div .fa-facebook{
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    text-align: center;
+}
+
+
+.right_topbar_div .fa-instagram{
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    text-align: center;
+}
+
+
+
+.right_topbar_div .fa-youtube{
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    text-align: center;
+}
+
+.logo_div img {
+    width: 130px !important;
+}
+
+
+.logo_div_login .dropdown button{
+    font-size: 13px !important;
+}
+
+
+.cart_div a{
+    font-size: 13px !important;
+}
+
+.categories_btn li a{
+    font-size: 12px !important;
+}
+
+.search_div_logo .input-group button{
+    font-size: 13px !important;  
+}
+
+.search_div_logo .input-group ::placeholder{
+    font-size: 13px !important;
+}
+
+.categories_title_div h1 {
+font-size: 20px !important;
+}
+
+.products_title_div h1{
+    font-size: 20px !important;
+    }
+
+.categories_main_div .categories_name_div h2{
+    font-size: 13px !important;
+}
+
+.products_name_div h3{
+    font-size: 13px !important;
+}
+
+.products_name_div p b{
+    font-size: 12px !important;
+}
+
+.products_name_div p span{
+    font-size: 11px !important;
+}
+
+.products_name_div h6 {
+font-size: 11px !important;
+}
+
+.support_txt_div h5{
+    font-size: 14px;
+}
+
+.support_txt_div p{
+    font-size: 11px !important;
+}
+
+
+.support_txt_div2 h5{
+    font-size: 14px;
+}
+
+.support_txt_div2 p{
+    font-size: 11px !important;
+}
+
+.solution_ftr_txt_div h4{
+    font-size: 20px !important;
+}
+
+.solution_ftr_txt_div a{
+    font-size: 13px;
+}
+
+.footer_title_di h5 {
+    font-size: 15px !important;
+}
+
+.footer_main_div li a {
+    font-size: 13px !important;
+}
+
+
+.footer_main_div .flex-grow-1 p {
+    font-size: 13px !important;
+}
+
+.footer_main_div .flex-grow-1 a {
+    font-size: 13px !important;
+}
+
+.followus-footer b {
+font-size: 13px !important;
+}
+
+}
+
+/* ============================================ 1200px ================================= */
+
+@media (max-width:1200px) {
+    .navbar .navbar-nav>li>a{
+        font-size: 11px !important;
+    }
+    .left_topbar_div a {
+        font-size: 11px !important;
+
+    }
+
+    .right_topbar_div a{
+        font-size: 11px !important;
+
+    }
+
+    .right_topbar_div b{
+        font-size: 11px !important;
+
+    }
+
+    
+.logo_div img {
+    width: 120px !important;
+}
+
+.logo_div_login .dropdown button{
+    font-size: 12px !important;
+}
+
+.cart_div a{
+    font-size: 11px !important;
+}
+.categories_btn li a{
+    font-size: 11px !important;
+}
+
+
+.search_div_logo .input-group button{
+    font-size: 12px !important;  
+}
+
+.search_div_logo .input-group ::placeholder{
+    font-size: 12px !important;
+}
+
+
+.categories_title_div h1 {
+    font-size: 18px !important;
+    }
+
+    
+.products_title_div h1{
+    font-size: 18px !important;
+    }
+    .categories_main_div .categories_name_div h2{
+        font-size: 12px !important;
+    }
+
+    .products_name_div h3{
+        font-size: 12px !important;
+    }
+
+    
+.products_name_div p b{
+    font-size: 11px !important;
+}
+
+.products_name_div p span{
+    font-size: 10px !important;
+}
+
+.products_name_div h6 {
+    font-size: 10x !important;
+    }
+
+    .support_txt_div h5{
+        font-size: 14px;
+    }
+
+    .support_txt_div p{
+        font-size: 11px !important;
+    }
+
+    
+.support_txt_div2 h5{
+    font-size: 14px;
+}
+
+.support_txt_div2 p{
+    font-size: 11px !important;
+}
+
+.solution_ftr_txt_div h4{
+    font-size: 20px !important;
+}
+
+.solution_ftr_txt_div a{
+    font-size: 13px;
+}
+
+
+.footer_title_di h5 {
+    font-size: 14px !important;
+}
+
+.footer_main_div li a {
+    font-size: 12px !important;
+}
+
+.footer_main_div .flex-grow-1 p {
+    font-size: 12px !important;
+}
+
+.footer_main_div .flex-grow-1 a {
+    font-size: 12px !important;
+}
+
+.footer_main_div .flex-shrink-0 .bx{
+    font-size: 16px !important;
+}
+
+
+.followus-footer b {
+    font-size: 12px !important;
+    }
+    .followus-footer a{
+        font-size: 14px !important;
+    }
+
+    .copyright_txt_div p {
+font-size: 12px !important;
+
+    }
+
+    .categories_title_div a {
+        font-size: 12px !important;
+    }
+}
+
+/* ==========767=================== */
+
+/*  */
+    @media (max-width:767px) {
+    .categories_img_box_div img{
+        height: auto !important;
+        width: 100%;
+    }
+    .categories_title_div a{
+        display: none !important;
+    }
+ 
+    .solution_footer_div{
+        display: none !important;
+    }
+
+    .category_products_main_div{
+        height: auto !important;
+    }
+
+}
