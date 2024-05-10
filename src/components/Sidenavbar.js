@@ -3,10 +3,10 @@ const Sidenavbar = () => {
   return (
     <>
    {/* =====================================Mobile navbar navigation start================================================================================================================ */}
-<div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabIndex={-1} id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+<div className="offcanvas offcanvas-start d-block d-lg-none" data-bs-scroll="true" data-bs-backdrop="false" tabIndex={-1} id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
   <div className="offcanvas-header">
     <h5 className="offcanvas-title" id="offcanvasScrollingLabel"><a href="/">
-        <img src="assets/logo/logo.png" className="img-fluid" />
+        <img src="../logo/logo.png" className="img-fluid" />
       </a></h5>
     <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
       <i className="bx bx-x" />

@@ -65,7 +65,7 @@ const Home = () => {
             <b>Mission Statement</b>
             <p>At Vanshika Plastic Industry, our mission is to be a leader in the plastic industry, providing top-notch HDPE, PP, and LLDPE granules that meet the highest quality standards. We are committed to innovation, sustainability, and customer satisfaction in all our endeavors.</p>
             <div className="about_btn_div">
-              <a href="about-us.php"> Read More</a>
+              <Link to="About"> Read More</Link>
             </div>
           </div>
         </div>
@@ -74,28 +74,7 @@ const Home = () => {
     </div>
   </section>
   {/* about us section end */}
-  {/* manufacturing processor start --
-    <section class="manufact_sec">
-<div class="container">
-    <!-- head titile start --
-    <div class="manufact_head_title">
-<h1>manufacturing  <span>process</span> </h1>
-    </div>
-    <!-- head titile end --
-  <div class="row">
-<!-- col start  --
-  <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-    <div class="manu_fac_proc_div_m">
-<div class="manu_fac_icon">
-  <span></span>
-</div>
-    </div>
-  </div>
-<!-- col end --
-  </div>
-</div>
-    </section>
-    <!-- manufacturing processor end */}
+  
   {/* making diffrent section start */}
   <section className="making_section">
     <div className="container">
@@ -183,7 +162,7 @@ const Home = () => {
             <h4>HDPE Granules</h4>
             <p> HDPE is a type of polyethylene with a high molecular weight, resulting.</p>
             <div className="product_btn_div">
-              <a href>Read More <span className="fa fa-long-arrow-right" /></a>
+              <Link to="">Read More <span className="fa fa-long-arrow-right" /></Link>
             </div>
           </div>
         </div>
@@ -197,7 +176,7 @@ const Home = () => {
             <h4>PP Granules</h4>
             <p>PP is often used to make plastic bags, films, and sheets due to its flexibility and durability.</p>
             <div className="product_btn_div">
-              <a href>Read More <span className="fa fa-long-arrow-right" /></a>
+              <Link to="">Read More <span className="fa fa-long-arrow-right" /></Link>
             </div>
           </div>
         </div>
@@ -211,7 +190,7 @@ const Home = () => {
             <h4>LLDPE Granules</h4>
             <p>LLDPE granules refer to the small, granular particles or pellets of LLDPE.</p>
             <div className="product_btn_div">
-              <a href>Read More <span className="fa fa-long-arrow-right" /></a>
+              <Link to="">Read More <span className="fa fa-long-arrow-right" /></Link>
             </div>
           </div>
         </div>
@@ -230,7 +209,7 @@ const Home = () => {
               <h3>Why Vanshika Plastic Industry.</h3>
               <p>At Vanshika Plastic Industry our commitment to providing exceptional customer service is what sets us apart from the competition. Guided by a straight set of principles, the Vanshika Plastic Industry team works continuously towards ensuring an effortless experience for all clients.</p>
               <div className="why_mdl_btn">
-                <a href>Enquiry Now ! <i className="bx bx-mail-send bx-tada" /></a>
+                <Link to="">Enquiry Now ! <i className="bx bx-mail-send bx-tada" /></Link>
               </div>
             </div>
           </div>
@@ -325,126 +304,7 @@ const Home = () => {
     </section>
   </section>
   {/* end section */}
-  {/* ====================OUR mostpro start ======================== */}
-  <section className="our_mostpro_section">
-    <div className="container">
-      {/* mostpro title start  */}
-      <div className="mostpro_haed_title" data-aos="fade-up" data-aos-duration={700} data-aos-offset={0}>
-        <h3>Featured Products </h3>
-        <p>Your search for a flawless range of Plastic Granules ends at Vanshika Plastic Industry. We offer a range which comprises of HDPE Granules, LDPE Granules, LLDPE Granules, Natural HDPE, Milky White HDPE.</p>
-      </div>
-      {/* mostpro title end */}
-      <div className="row">
-        <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-          {/* main div slider mostpro start  */}
-          <div className="mostpro_slider_main_div" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={0}>
-            {/* owl div main */}
-            <div className="owl-carousel owl-theme" id="mostpro-slider">
-              {/* item div */}
-              <div className="item">
-                <a href>
-                  <div className="mostpro_main_item">
-                    <div className="mostpro_img_div_item">
-                      <img src="../products/1.png" alt className="img-fluid" />
-                    </div>
-                    {/* overlay segement text s */}
-                    <div className="overlay_segement_txt_div">
-                      <h4>LLDPE Granules</h4>
-                    </div>
-                    {/* overlay segement text end */}
-                  </div>
-                </a>
-              </div>
-              {/* item div end*/}
-              {/* item div */}
-              <div className="item">
-                <a href>
-                  <div className="mostpro_main_item">
-                    <div className="mostpro_img_div_item">
-                      <img src="../products/2.png" alt className="img-fluid" />
-                    </div>
-                    {/* overlay segement text s */}
-                    <div className="overlay_segement_txt_div">
-                      <h4>LLDPE Granules</h4>
-                    </div>
-                    {/* overlay segement text end */}
-                  </div>
-                </a>
-              </div>
-              {/* item div end*/}
-              {/* item div */}
-              <div className="item">
-                <a href>
-                  <div className="mostpro_main_item">
-                    <div className="mostpro_img_div_item">
-                      <img src="../products/3.png" alt className="img-fluid" />
-                    </div>
-                    {/* overlay segement text s */}
-                    <div className="overlay_segement_txt_div">
-                      <h4>LLDPE Granules</h4>
-                    </div>
-                    {/* overlay segement text end */}
-                  </div>
-                </a>
-              </div>
-              {/* item div end*/}
-              {/* item div */}
-              <div className="item">
-                <a href>
-                  <div className="mostpro_main_item">
-                    <div className="mostpro_img_div_item">
-                      <img src="../products/14.png" alt className="img-fluid" />
-                    </div>
-                    {/* overlay segement text s */}
-                    <div className="overlay_segement_txt_div">
-                      <h4>LLDPE Granules</h4>
-                    </div>
-                    {/* overlay segement text end */}
-                  </div>
-                </a>
-              </div>
-              {/* item div end*/}
-              {/* item div */}
-              <div className="item">
-                <a href>
-                  <div className="mostpro_main_item">
-                    <div className="mostpro_img_div_item">
-                      <img src="../products/15.png" alt className="img-fluid" />
-                    </div>
-                    {/* overlay segement text s */}
-                    <div className="overlay_segement_txt_div">
-                      <h4>LLDPE Granules</h4>
-                    </div>
-                    {/* overlay segement text end */}
-                  </div>
-                </a>
-              </div>
-              {/* item div end*/}
-              {/* item div */}
-              <div className="item">
-                <a href>
-                  <div className="mostpro_main_item">
-                    <div className="mostpro_img_div_item">
-                      <img src="../products/16.png" alt className="img-fluid" />
-                    </div>
-                    {/* overlay segement text s */}
-                    <div className="overlay_segement_txt_div">
-                      <h4>LLDPE Granules</h4>
-                    </div>
-                    {/* overlay segement text end */}
-                  </div>
-                </a>
-              </div>
-              {/* item div end*/}
-            </div>
-            {/* owl div main end*/}
-          </div>
-          {/* main div slider mostpro end */}
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* ====================OUR mostpro end======================== */}
+  
   {/* why choose us section s */}
   <div className="whychoose_us_sec2">
     <div className="whu_us_ovrlay_bg2">

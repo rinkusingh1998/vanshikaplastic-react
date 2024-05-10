@@ -27,7 +27,7 @@ const Header = () => {
           <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
           <li className="nav-item"><Link className="nav-link" to="About">About Us</Link> </li>
           {/* dropdwon menu */}
-          <li className="nav-item dropdown"><a className="nav-link" href>Products <i className="bx bx-chevron-down" /> </a>
+          <li className="nav-item dropdown"><Link className="nav-link" to="">Products <i className="bx bx-chevron-down" /> </Link>
             <ul className="dropdown-menu">
               {/* sub menu */}
               <li className="mkp-submenu"><Link className="dropdown-item" to="">HDPE Granules <i className="bx bx-chevron-right" /></Link>
