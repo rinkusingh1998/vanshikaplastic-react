@@ -88,60 +88,6 @@ a:focus {
 }
 /* top bar css end */
 
-
-/*=====================topbar css ==============================*/
-.topbar_section{
-	transition: .4s ease-in-out;
-	position: relative;
-  background-color: var(--primary-color);
-}
-
-.left_topbar{
-
-	transition: .4s ease-in-out;
-}
-
-.left_topbar a{
-	margin: 0px 5px;
-	color: #fff !important;
-	transition: .4s ease-in-out;
-	letter-spacing: .2px;
-	z-index: -1;
-  font-size: 15px;
-}
-
-.left_topbar span{
-	
-	transition: .4s ease-in-out;
-	color:#fff !important; 
-}
-.right_topbar{
-	transition: .4s ease-in-out;
-	float: right;
-  padding: 0 !important;
-	}
-
-.right_topbar a{
-	background-color: var(--four-color);
-	width: 25px;
-	height: 25px;
-	line-height: 25px;
-	text-align: center;
-	font-size: 14px;
-	color:var(--white-color); 
-	border-radius: 0px;
-}
-
-
-.right_topbar span{
-	color: #fff;
-	font-weight: 600;
-	letter-spacing: .2px;
-  font-size: 14px;
-}
-/*=====================topbar css end==============================*/
-
-
 /* navbar css */
 
 .navbar-toggler {
@@ -151,18 +97,17 @@ a:focus {
   box-shadow: none !important;
 }
 
-.navbar {
+.navbar{
   background-color: #fff !important;
   outline: none;
   border: none;
-  position: sticky;
-  top: 0;
+  position: sticky !important;
+  top: 0 !important;
   left: 0;
   right: 0;
   padding: 0 !important;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: 0.4s ease-in-out;
-
 }
 
 
@@ -602,9 +547,16 @@ font-weight: 600;
   z-index: 99999;
   background-color: var(--white-color) !important;
 }
+.offcanvas-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
 .offcanvas-header button{
   color: var(--primary-color) !important;
+  text-align: right !important;
 }
 
 .offcanvas_btn {
@@ -981,7 +933,7 @@ font-weight: 600;
 /*  */
 
 .offcanvas_scroll {
-  height: 440px;
+  /* height: 440px; */
   overflow-y: auto;
 }
 

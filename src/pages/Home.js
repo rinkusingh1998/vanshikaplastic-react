@@ -1,5 +1,4 @@
 import React from 'react';
-import Productslider from './Productslider';
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -209,7 +208,7 @@ const Home = () => {
               <h3>Why Vanshika Plastic Industry.</h3>
               <p>At Vanshika Plastic Industry our commitment to providing exceptional customer service is what sets us apart from the competition. Guided by a straight set of principles, the Vanshika Plastic Industry team works continuously towards ensuring an effortless experience for all clients.</p>
               <div className="why_mdl_btn">
-                <Link to="">Enquiry Now ! <i className="bx bx-mail-send bx-tada" /></Link>
+                <Link to="Contact">Enquiry Now ! <i className="bx bx-mail-send bx-tada" /></Link>
               </div>
             </div>
           </div>
