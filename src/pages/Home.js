@@ -57,7 +57,7 @@ const Home = () => {
         {/* col start */}
         <div className="col-lg-7 col-md-6 col-sm-12 col-12">
           <div className="about_content_div" data-aos="fade-down" data-aos-duration={1200} data-aos-offset={0}>
-            <h1>Welcome to<span>Vanshika Plastic</span> </h1>
+            <h1>Welcome to <span> Vanshika Plastic</span> </h1>
             <h3>Leading Manufacturer, Supplier and Exporter of</h3>
             <h4> HDPE Granules |  PP Granules |  LLDPE Granules</h4>
             <p>Vanshika Plastic Industry is a dynamic force in the plastic industry, specializing in the manufacturing and distribution of high-quality HDPE, PP, and LLDPE granules. Established in 2001, our company has emerged as a trusted name, delivering innovative and sustainable solutions to meet the diverse needs of our clients.</p>

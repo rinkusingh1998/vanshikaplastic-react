@@ -1,9 +1,10 @@
 import React from 'react'
+
 const Sidenavbar = () => {
   return (
     <>
    {/* =====================================Mobile navbar navigation start================================================================================================================ */}
-<div className="offcanvas offcanvas-start d-block d-lg-none" data-bs-scroll="true" data-bs-backdrop="false" tabIndex={-1} id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+<div className="offcanvas offcanvas_scroll offcanvas-start d-block d-lg-none" data-bs-scroll="true" data-bs-backdrop="false" tabIndex={-1} id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
   <div className="offcanvas-header">
     <h5 className="offcanvas-title" id="offcanvasScrollingLabel"><a href="/">
         <img src="../logo/logo.png" className="img-fluid" />
@@ -12,7 +13,7 @@ const Sidenavbar = () => {
       <i className="bx bx-x" />
     </button>
   </div>
-  <div className="offcanvas-body offcanvas_scroll">
+  <div className="offcanvas-body">
     {/* Example single danger button */}
     <div className="mobile_navbar">
       <ul className="main_ul">
@@ -97,8 +98,6 @@ const Sidenavbar = () => {
   </div>
 </div>
 {/* =====================================Mobile navbar navigation end================================================================================================================ */}
-
-
     </>
   )
 }

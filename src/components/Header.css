@@ -551,7 +551,10 @@ font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+
 }
 
 .offcanvas-header button{
@@ -960,7 +963,7 @@ font-weight: 600;
 /*  */
 
 .sub_menu_scroll {
-  height: 440px;
+  height: 100vh;
   overflow-y: auto;
 }
 
