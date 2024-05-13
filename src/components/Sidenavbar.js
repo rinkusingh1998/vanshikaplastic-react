@@ -72,7 +72,7 @@ const Sidenavbar = () => {
           </div>
         </div>
         {/*products drop li end */}
-        <li className="nav-item"><a className="nav-link" href="epr-services.php">EPR / Waste Management Service</a></li>
+        <li className="nav-item"><a className="nav-link" href="Eprservices">EPR / Waste Management Service</a></li>
         <li className="nav-item"><a className="nav-link" href>Brochure </a></li>
         <li className="nav-item"><a className="nav-link" href="Contact">Contact Us</a></li>
       </ul>
