@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Featuredproductsslider from '../data/Featuredproductsslider';
 
 const Home = () => {
   return (
@@ -303,6 +304,26 @@ const Home = () => {
     </section>
   </section>
   {/* end section */}
+{/* ====================OUR mostpro start ======================== */}
+<section className="our_mostpro_section">
+  <div className="container">
+    {/* mostpro title start  */}
+    <div className="mostpro_haed_title" data-aos="fade-up" data-aos-duration={700} data-aos-offset={0}>
+      <h3>Featured Products </h3>
+      <p>Your search for a flawless range of Plastic Granules ends at Vanshika Plastic Industry. We offer a range which comprises of HDPE Granules, LDPE Granules, LLDPE Granules, Natural HDPE, Milky White HDPE.</p>
+    </div>
+    {/* mostpro title end */}
+    <div className="row">
+      <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+      <Featuredproductsslider/>
+      </div>
+    </div>
+  </div>
+</section>
+{/* ====================OUR mostpro end======================== */}
+
+
+
   
   {/* why choose us section s */}
   <div className="whychoose_us_sec2">

@@ -5,7 +5,7 @@ import Sidenavbar from './Sidenavbar';
 const Header = () => {
   return (
     <>
-    <div>
+
   <section className="top_bar_sec">
     <div className="conatiner" />
   </section>
@@ -62,7 +62,7 @@ const Header = () => {
             </ul>
           </li>
           {/* dropdwon menu end*/}
-          <li className="nav-item"><Link className="nav-link" to="epr-services.php">EPR / Waste Management Service</Link></li>
+          <li className="nav-item"><Link className="nav-link" to="Eprservices">EPR / Waste Management Service</Link></li>
           <li className="nav-item"><Link className="nav-link" to="">Brochure </Link></li>
           <li className="nav-item"><Link className="nav-link" to="Contact">Contact Us</Link></li>
         </ul>
@@ -81,7 +81,7 @@ const Header = () => {
     </div>
   </nav>
   {/* navbar end */}
-</div>
+
 
 {/* sidenavbar start */}
 <Sidenavbar/>

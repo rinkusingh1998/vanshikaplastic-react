@@ -17,7 +17,7 @@ const Contactus = () => {
               <div className="page_title_tax_mkp_div">
                 <h1> Contact Us</h1>
                 <ul>
-                  <li><a href="index.php">Home</a></li>
+                  <li><Link to="/">Home</Link></li>
                   <li>Contact Us</li>
                 </ul>
               </div>

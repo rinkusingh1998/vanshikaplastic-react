@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Aboutus from './pages/Aboutus';
 import Contactus from './pages/Contactus';
 import ScrollToTop from './components/Scrolltop';
+import Eprservices from './pages/Eprservices';
 
 function App() {
  
@@ -23,6 +24,7 @@ function App() {
     <Route path='/' Component={Home}/>
     <Route path='/About' Component={Aboutus}/>
     <Route path='/Contact' Component={Contactus}/>
+    <Route path='/Eprservices' Component={Eprservices}/>
    
   </Routes>
   <Footer/>

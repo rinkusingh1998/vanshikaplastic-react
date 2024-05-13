@@ -241,7 +241,7 @@
     
       .copyright_section {
         background-color: var(--primary-color);
-        padding-bottom: 45px !important;
+        padding-bottom: 5px !important;
     }
     
     .slider_section .carousel-item img{

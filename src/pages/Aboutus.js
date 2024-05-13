@@ -7,7 +7,7 @@ const Aboutus = () => {
   return (
     <>
 
-<div>
+
   {/* pagte titile section start  */}
   <section className="page_title_mkp_section">
     <div className="page_ti_overly_mkp_div">
@@ -19,7 +19,7 @@ const Aboutus = () => {
               <div className="page_title_tax_mkp_div">
                 <h1> About Us</h1>
                 <ul>
-                  <li><a href="index.php">Home</a></li>
+                  <li><Link to="/">Home</Link></li>
                   <li>About Us</li>
                 </ul>
               </div>
@@ -166,7 +166,7 @@ const Aboutus = () => {
     </section>
   </section>
   {/* end section */}
-</div>
+
 
     </>
   )
