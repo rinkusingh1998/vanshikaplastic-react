@@ -101,11 +101,13 @@ p{
     color: var(--primary-color);
 }
 
-@-webkit-keyframes hue {
+@keyframes hue {
   from {
+    filter: hue-rotate(0deg);
     -webkit-filter: hue-rotate(0deg);
   }
   to {
+    filter: hue-rotate(-360deg);
     -webkit-filter: hue-rotate(-360deg);
   }
 }
@@ -350,8 +352,10 @@ p{
 .about_head_title h1 span{
     color: var(--primary-color);
 	background-image: -webkit-linear-gradient(92deg,  #141615, #47143d, #47143d, #141615, #141615);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation: hue 10s infinite linear;
 	-webkit-animation: hue 10s infinite linear;
 }
 
@@ -580,8 +584,10 @@ p{
 .manufact_head_title h1 span{
     color: var(--primary-color);
 	background-image: -webkit-linear-gradient(92deg,  #141615, #47143d, #47143d, #141615, #141615);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation: hue 10s infinite linear;
 	-webkit-animation: hue 10s infinite linear;
 }
 
@@ -621,8 +627,10 @@ p{
 .making_main_txt_div h3 span{
     color: var(--secondry-color);
     background-image: -webkit-linear-gradient(92deg,  #141615, #47143d, #47143d, #141615, #141615);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation: hue 10s infinite linear;
 	-webkit-animation: hue 10s infinite linear;
 }
 
