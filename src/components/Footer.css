@@ -300,3 +300,29 @@ font-size: 20px;
    }
 /* ======================copyright section end============ */
 
+.btn-bottom-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: var(--secondry-color);
+  color: var(--white-color);
+  border: none;
+width: 30px;
+height: 30px;
+line-height: 30px;
+text-align: center;
+  border-radius: 100px;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 14px;
+  border: 2px solid var(--white-color);
+}
+
+.btn-bottom-to-top.show {
+  display: block;
+}
+
+.btn-bottom-to-top.hide {
+  display: none;
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css';
 import { Link } from "react-router-dom";
+import BottomToTopButton from '../data/BottomToTopButton';
+import DisableRightClick from '../data/DisableRightClick';
 const Footer = () => {
   return (
     <>
@@ -150,8 +152,10 @@ const Footer = () => {
   </section>
   {/* ===================================copyright section end================= */}
 
-
-
+{/* =============== */}
+<BottomToTopButton/>
+<DisableRightClick/>
+{/* =============== */}
     </>
   )
 }
