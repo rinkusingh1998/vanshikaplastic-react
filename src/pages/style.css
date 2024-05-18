@@ -324,6 +324,15 @@ p{
     margin-bottom: 0px;
 }
 
+.about_content_div p > b{
+    font-size: 18px;
+}
+
+
+.about_content_div b{
+    font-size: 18px;
+}
+
 /* 
 .about_head_title h1:before {
     content: "";
@@ -606,8 +615,8 @@ p{
 
 /* making css */
 .making_section{
-    background-color: var(--background-color);
     padding: 20px 0px;
+    background-image: url(../../public/images/footer-bg.png);
 }
 
 .making_main_txt_div{
@@ -1044,7 +1053,7 @@ p{
     color: var(--primary-color);
     text-transform: capitalize;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 32px;
     padding-bottom: 10px;
 }
 
@@ -1076,7 +1085,7 @@ p{
 /* counter section */
 
 .counter_section{
-    background-image: url(../../public/banner/3.jpg);
+    background-image: url(../../public/images/bga.avif);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1084,7 +1093,7 @@ p{
 }
 
 .counter_section_ovr{
-    background-color: #8b8b8bb9;
+    background-color: rgba(185, 150, 82, .8);
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -1150,7 +1159,7 @@ p{
   
   .page_ti_overly_mkp_div {
     background-color: rgba(255, 255, 255, 0.9);
-    padding-top: 50px;
+    padding-top: 20px;
   }
   
   .page_title_tax_mkp_main_div {
@@ -1458,6 +1467,13 @@ p{
     color: var(--secondry-color);
     font-size: 17px;
     text-transform: capitalize;
+    display: block;
+}
+
+.contact_us_flx_div_main .contact_page_num_div strong{
+    color: var(--secondry-color);
+    font-size: 15px;
+    text-transform: capitalize; 
 }
 
 .contact_us_flx_div_main .contact_page_num_div a{
@@ -1571,7 +1587,7 @@ textarea {
 
   .epr_pg_txt_div h3{
    padding-top: 10px;
-   padding-bottom: 10px;
+   padding-bottom: 0px;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 20px;

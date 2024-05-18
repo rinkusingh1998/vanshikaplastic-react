@@ -6,37 +6,17 @@ const Home = () => {
   return (
     <>
      
-     {/* slider section start */}
-<section className="slider_section">
-<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} aria-label="Slide 2" />
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={2} aria-label="Slide 3" />
+     {/* Start Main Banner Area */}
+<section className="main_section_video"> 
+  <div className="video_main_div">
+    <video width="100%" loop muted autoPlay>
+      <source src="../banner/bannervd22.mp4" type="video/mp4" />
+    </video>
   </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="../banner/11.jpg" className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="../banner/22.jpg" className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="../banner/33.jpg" className="d-block w-100" alt="..." />
-    </div>
-   
-  </div>
- <div className="btn_left_right">
- <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-  <i class='bx bx-left-arrow'></i>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-  <i class='bx bx-right-arrow'></i>
-  </button>
- </div>
-</div>
 </section>
-     {/* slider section end */}
+{/* End Main Banner Area */}
+
+
 
 
   <div>
@@ -60,10 +40,11 @@ const Home = () => {
           <div className="about_content_div" data-aos="fade-down" data-aos-duration={1200} data-aos-offset={0}>
             <h1>Welcome to <span> Vanshika Plastic</span> </h1>
             <h3>Leading Manufacturer, Supplier and Exporter of</h3>
-            <h4> HDPE Granules |  PP Granules |  LLDPE Granules</h4>
-            <p>Vanshika Plastic Industry is a dynamic force in the plastic industry, specializing in the manufacturing and distribution of high-quality HDPE, PP, and LLDPE granules. Established in 2001, our company has emerged as a trusted name, delivering innovative and sustainable solutions to meet the diverse needs of our clients.</p>
-            <b>Mission Statement</b>
-            <p>At Vanshika Plastic Industry, our mission is to be a leader in the plastic industry, providing top-notch HDPE, PP, and LLDPE granules that meet the highest quality standards. We are committed to innovation, sustainability, and customer satisfaction in all our endeavors.</p>
+            <h4> HDPE Granules |  PPCP Granules |  Cable Compounds</h4>
+            <b>"A Unit Of Plastic Rebirth"</b>
+            <p>Excellence in Recycled Plastic Granules Since 1994</p>
+           <p><b>Introduction:</b> Founded by the visionary Mr. Ashok Saraf, Vanshika Plastic Industry has established itself as a paragon of quality and innovation in the recycled plastics market. With over two decades of dedication, we have been at the vanguard of promoting recycling as a gift to the next generation, ensuring that our operations contribute to a sustainable future.</p>
+           <p><b>Our Growth Story:</b> From our inception in Delhi, we have expanded our horizons to Rajasthan, enhancing our production capacity to an impressive 10,000 MT annually. This expansion is a testament to our relentless pursuit of catering to the evolving needs of our clients and solidifying our presence as an industry trailblazer.</p>
             <div className="about_btn_div">
               <Link to="About"> Read More</Link>
             </div>
@@ -83,7 +64,7 @@ const Home = () => {
         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
           <div className="making_main_txt_div" data-aos="fade-up" data-aos-duration={1400} data-aos-offset={0}>
             <h3> Making a <span>difference to the world</span> we live in!</h3>
-            <p>Vanshika Plastic Industries is a Delhi (India) based business whose main motive is to promote the use of recycled plastic granules. The offered range of granules can be utilized in the production of a vast range of plastic products, such as chairs, mugs, bottles, tanks, to name a few. The waste material is processed into granular form in attractive colors. These granules are known for their fine finishing and easy malleability. High-tech machinery are employed in the production of plastic granules according to the set national standards. To safely store the recycled plastic granules in bulk quantity, we have set-up a warehousing facility. Customers can avail from us a wide range of granules, from HDPE Granules, PP Granules to LLDPE Granules.</p>
+            <p>Vanshika Plastic Industries is a Delhi (India) based business whose main motive is to promote the use of recycled plastic granules. The offered range of granules can be utilized in the production of a vast range of plastic products including but not limited to HDPE Pipes, Water Tanks, DWC Pipes, PE Cables, Geo-Membrane Sheets, Tarpauline, PLB Pipes, Drums, chairs, mugs, bottles, Automobile Parts etc. to name a few. The waste material is processed into granular form in attractive colors. These granules are known for their fine finishing, and strong endurance. High-tech machinery are employed in the production of plastic granules according to the set national standards. To safely store the recycled plastic granules in bulk quantity, we have set-up a warehousing facility. Customers can avail from us a wide range of granules, from HDPE Granules, PPCP Granules to Cable Compounds.</p>
           </div>
         </div>
         {/* col end */}
@@ -148,8 +129,8 @@ const Home = () => {
     <div className="container">
       {/* head ti */}
       <div className="product_haed_ti">
-        <h3>Granules</h3>
-        <p>Empowered by our state-of-the-art infrastructural facilities we have been able to successfully offer a wide range of PVC, HDPE pipes, tubing, hoses, oil hoses, duct hoses, PVC suction hoses, heavy duty hoses, lay flat hoses etc. The entire range is manufactured using qualitative raw material and undergoes thorough quality checks so that flawless range is delivered to the clients. Our range encompasses the followings:</p>
+        <h3>Our Products</h3>
+        <p>Empowered by our state-of-the-art infrastructural facilities we have been able to successfully offer a wide range of Reprocessed Granules. The entire range is manufactured using qualitative raw material and undergoes thorough quality checks so that flawless range is delivered to the clients. Our range encompasses the followings:</p>
       </div>
       {/* end */}
       <div className="row">
@@ -173,7 +154,7 @@ const Home = () => {
             <div className="products_img_box">
               <img src="../products/2.png" alt className="img-fluid" />
             </div>
-            <h4>PP Granules</h4>
+            <h4>PPCP Granules</h4>
             <p>PP is often used to make plastic bags, films, and sheets due to its flexibility and durability.</p>
             <div className="product_btn_div">
               <Link to="">Read More <span className="fa fa-long-arrow-right" /></Link>
@@ -187,8 +168,8 @@ const Home = () => {
             <div className="products_img_box">
               <img src="../products/3.png" alt className="img-fluid" />
             </div>
-            <h4>LLDPE Granules</h4>
-            <p>LLDPE granules refer to the small, granular particles or pellets of LLDPE.</p>
+            <h4>Cable Grade Granules</h4>
+            <p>Cable Grade Granules refer to the small, granular particles or pellets of LLDPE.</p>
             <div className="product_btn_div">
               <Link to="">Read More <span className="fa fa-long-arrow-right" /></Link>
             </div>
@@ -206,7 +187,7 @@ const Home = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-7 col-sm-12 col-12">
             <div className="why_md_txt_div">
-              <h3>Why Vanshika Plastic Industry.</h3>
+              <h3>Why Vanshika Plastic Industry ?</h3>
               <p>At Vanshika Plastic Industry our commitment to providing exceptional customer service is what sets us apart from the competition. Guided by a straight set of principles, the Vanshika Plastic Industry team works continuously towards ensuring an effortless experience for all clients.</p>
               <div className="why_mdl_btn">
                 <Link to="Contact">Enquiry Now ! <i className="bx bx-mail-send bx-tada" /></Link>
@@ -217,13 +198,15 @@ const Home = () => {
       </div>
     </div>
   </section>
+
+
   {/* why vanshika sec end */}
   <section className="container our_team_sec">
     {/* col start */}
     <div className="col-lg-12 col-md-12 col-sm-12 col-12">
       <div className="making_main_txt_div" data-aos="fade-down" data-aos-duration={1800} data-aos-offset={0}>
         <h3> Premium Plastic Material For Every Need.</h3>
-        <p>Your search for a flawless range of Plastic Granules ends at Vanshika Plastic Industry. We offer a range which comprises of HDPE Granules, LDPE Granules, LLDPE Granules, Natural HDPE, Milky White HDPE.</p>
+        <p>Your search for a flawless range of Plastic Granules ends at Vanshika Plastic Industry. We offer a range which comprises of HDPE Granules, PPCP Granules, Cable Compounds.</p>
       </div>
     </div>
     {/* col end */}
@@ -259,7 +242,7 @@ const Home = () => {
                 </div>
                 <div className="card__content">
                   <h3>Our Team</h3>
-                  <p>Forming the backbone of the company, the team at Vanshika Plastic Industry is always ready to rise up to the challenging market demands. The team members involved in production, quality control and delivery.</p>
+                  <p>Forming the backbone of the company, the team at Vanshika Plastic Industry is always ready to rise up to the challenging market demands and is trained specifically for delivering quality and consistency.</p>
                 </div>
               </div>
             </div>
@@ -304,25 +287,8 @@ const Home = () => {
     </section>
   </section>
   {/* end section */}
-{/* ====================OUR mostpro start ======================== */}
-<section className="our_mostpro_section">
-  <div className="container">
-    {/* mostpro title start  */}
-    <div className="mostpro_haed_title" data-aos="fade-up" data-aos-duration={700} data-aos-offset={0}>
-      <h3>Featured Products </h3>
-      <p>Your search for a flawless range of Plastic Granules ends at Vanshika Plastic Industry. We offer a range which comprises of HDPE Granules, LDPE Granules, LLDPE Granules, Natural HDPE, Milky White HDPE.</p>
-    </div>
-    {/* mostpro title end */}
-    <div className="row">
-      <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-      <Featuredproductsslider/>
-      </div>
-    </div>
-  </div>
-</section>
-{/* ====================OUR mostpro end======================== */}
 
-
+  
 
   
   {/* why choose us section s */}
@@ -407,7 +373,7 @@ const Home = () => {
                 <i className="bx bxs-factory" />
               </div>
               <div className="count_run_div">
-                <span className="count">1000 </span>
+                <span className="count">35000 </span> <span className="plus">+</span>
               </div>
               <h5>SQ. FEET OF INFRASTRUCTURE</h5>
             </div>
@@ -420,7 +386,7 @@ const Home = () => {
                 <i className="bx bx-layer" />
               </div>
               <div className="count_run_div">
-                <span className="count">60 </span> <span className="plus">+</span>
+                <span className="count">15 </span> <span className="plus">+</span>
               </div>
               <h5>VARIETY OF PRODUCTS</h5>
             </div>
@@ -433,7 +399,7 @@ const Home = () => {
                 <i className="bx bx-buildings" />
               </div>
               <div className="count_run_div">
-                <span className="count">15 </span> <span className="plus">+</span>
+                <span className="count">30 </span> <span className="plus">+</span>
               </div>
               <h5>YEARS OF EXPERIENCE</h5>
             </div>
@@ -462,7 +428,7 @@ const Home = () => {
         {/* col  */}
         <div className="col-lg-4 col-md-5 col-sm-12 col-12">
           <div className="sustain_img_box_txt" data-aos="fade-down" data-aos-duration={2800} data-aos-offset={0}>
-            <h4> EPR - How Vanshika Plastic Industry can help you grow sustainably? </h4>
+            <h4> EPR - How Vanshika Plastic Industry can help you grow sustainably ? </h4>
             <p>With an increase in non-biodegradable production in manufacturing companies, both the governmental or industrial responsibility rises by several folds. Not just responsibility, the cost to dispose of the ultimate waste increases.</p>
             <a href><img src="../images/epr.jpg" alt className="img-fluid" /></a>
           </div>

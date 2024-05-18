@@ -47,8 +47,11 @@ const Contactus = () => {
                 </div>
                 <div className="flex-grow-1 ms-3">
                   <div className="contact_page_num_div">
-                    <b>Mobile No.:</b>
-                    <a href="tel:+91-9810347240"> +91-9810347240</a>
+                    <strong>Mr. Ashok Saraf (managing director)</strong>
+                    
+                    <a href="tel:+91-9810347240"> +91-9810347240 </a>
+                    <strong>Mr. Ayush Saraf</strong>
+
                     <a href="tel:+91-9310347240"> +91-9310347240</a>
                   </div>
                 </div>
@@ -82,7 +85,7 @@ const Contactus = () => {
                     <b> Office &amp; Unit-1:</b>
                     <p>D-25 &amp; 26 Sector-5, D.S.I.I.D.C Bawana Industrial Area, Delhi 110039 - (INDIA)</p>
                     <b> Unit-2:</b>
-                    <p>G1-228 RIICO Industrial Area Kahrani Bhiwadi Rajasthan 301019 - (INDIA)</p>
+                    <p>G1-228 & 229, RIICO Industrial Area, Kahrani, Bhiwadi, Rajasthan - 301019 - (INDIA)</p>
                   </div>
                 </div>
               </div>
@@ -171,9 +174,7 @@ const Contactus = () => {
       </div>
       {/* col end */}
       <br />
-      <div className="col-lg-12">
-        <p><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28129.685786216156!2d76.83927438755286!3d28.200909707771977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sG1-228%20RIICO%20Industrial%20Area%20Kahrani%20Bhiwadi%20Rajasthan%20301019%20-!5e0!3m2!1sen!2sin!4v1709616569827!5m2!1sen!2sin" width="100%" height={350} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" /></p>
-      </div>
+     
     </div>
   </section>
   {/* ===================contact us page section end ============== */}

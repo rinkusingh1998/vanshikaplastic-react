@@ -25,36 +25,36 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav m-auto">
           <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="About">About Us</Link> </li>
+          <li className="nav-item"><Link className="nav-link" to="/About">About Us</Link> </li>
           {/* dropdwon menu */}
           <li className="nav-item dropdown"><Link className="nav-link" to="">Products <i className="bx bx-chevron-down" /> </Link>
             <ul className="dropdown-menu">
               {/* sub menu */}
               <li className="mkp-submenu"><Link className="dropdown-item" to="">HDPE Granules <i className="bx bx-chevron-right" /></Link>
                 <ul className="dropdown-menu sub_menu_scrolls"> 
-                  <li><Link className="dropdown-item" to="">PE 100 SSBN Granule</Link></li>  
-                  <li><Link className="dropdown-item" to="">PE 80 SBN Granule</Link></li>  
-                  <li><Link className="dropdown-item" to="">PE 63 BN Granule</Link></li>  
-                  <li><Link className="dropdown-item" to="">BD (Blow) Granule</Link></li>  
-                  <li><Link className="dropdown-item" to="">Natural Granule</Link></li>  
-                  <li><Link className="dropdown-item" to="">Milkey Granule</Link></li>  
-                  <li><Link className="dropdown-item" to="">SSBL Blue Drum &amp; Blue SBL Granule</Link></li>  
-                  <li><Link className="dropdown-item" to>Custom Compounding Granule</Link></li>  
+                  <li><Link className="dropdown-item" to="">PE 100 SSBK Granules</Link></li>  
+                  <li><Link className="dropdown-item" to="">PE 80 SBK Granules</Link></li>  
+                  <li><Link className="dropdown-item" to="">PE 63 BK Granules</Link></li>  
+                  <li><Link className="dropdown-item" to="">BD (Blow Grade) Granules</Link></li>  
+                  <li><Link className="dropdown-item" to="">Natural Granules</Link></li>  
+                  <li><Link className="dropdown-item" to="">Milky Granules</Link></li>  
+                  <li><Link className="dropdown-item" to="">SSBL Blue Drum Granules</Link></li>  
+                  <li><Link className="dropdown-item" to>Custom Compounded Granules</Link></li>  
                 </ul>
               </li>
               {/* end submenu */}
               {/* sub menu */}
               <li className="mkp-submenu"><Link className="dropdown-item" to="">LLDPE Granules <i className="bx bx-chevron-right" /></Link>
                 <ul className="dropdown-menu sub_menu_scrolls"> 
-                  <li><Link className="dropdown-item" to="">Cabu Compounding N1 n2 granules</Link></li>  
+                  <li><Link className="dropdown-item" to="">Cable Compounding N1, N2 granules</Link></li>  
                 </ul>
               </li>
               {/* end submenu */}
               {/* sub menu */}
-              <li className="mkp-submenu"><Link className="dropdown-item" to="">PP Granules <i className="bx bx-chevron-right" /></Link>
+              <li className="mkp-submenu"><Link className="dropdown-item" to="">PPCP Granules <i className="bx bx-chevron-right" /></Link>
                 <ul className="dropdown-menu sub_menu_scrolls"> 
-                  <li><Link className="dropdown-item" to="">PPCP Black Granule</Link></li>  
-                  <li><Link className="dropdown-item" to="">Natural PPCP Granule</Link></li>  
+                  <li><Link className="dropdown-item" to="">Black PPCP Granules</Link></li>  
+                  <li><Link className="dropdown-item" to="">Natural PPCP Granules</Link></li>  
                 </ul>
               </li>
               {/* end submenu */}
@@ -62,9 +62,9 @@ const Header = () => {
             </ul>
           </li>
           {/* dropdwon menu end*/}
-          <li className="nav-item"><Link className="nav-link" to="Eprservices">EPR / Waste Management Service</Link></li>
+          <li className="nav-item"><Link className="nav-link" to="/Eprservices">EPR / Waste Management Service</Link></li>
           <li className="nav-item"><Link className="nav-link" to="">Brochure </Link></li>
-          <li className="nav-item"><Link className="nav-link" to="Contact">Contact Us</Link></li>
+          <li className="nav-item"><Link className="nav-link" to="/Contact">Contact Us</Link></li>
         </ul>
       </div>
       <ul className="navbar-nav navbar_num_xl m-auto">
