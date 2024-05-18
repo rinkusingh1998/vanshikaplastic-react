@@ -54,11 +54,11 @@ const Footer = () => {
             <div className="footer_headti" data-aos="fade-down" data-aos-duration={1200} data-aos-offset={0}>
               <h5> Products</h5>
               <ul>
-                <li><Link to="">PE 100 SSBN Granule</Link></li>  
-                <li><Link to="">PE 80 SBN Granule</Link></li>  
-                <li><Link to="">PE 63 BN Granule</Link></li>  
-                <li><Link to="">BD (Blow) Granule</Link></li>  
-                <li><Link to="">Natural Granule</Link></li>  
+                <li><Link to="">PE 100 SSBK Granules</Link></li>  
+                <li><Link to="">PE 80 SBK Granules</Link></li>  
+                <li><Link to="">PE 63 BK Granules</Link></li>  
+                <li><Link to="">BD (Blow Grade) Granules</Link></li>  
+                {/* <li><Link to="">Natural Granules</Link></li>   */}
               </ul>
             </div>
           </div>

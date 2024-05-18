@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Featuredproductsslider from '../data/Featuredproductsslider';
 
 const Home = () => {
   return (
     <>
      
      {/* Start Main Banner Area */}
-<section className="main_section_video"> 
+     <section className="main_section_video"> 
   <div className="video_main_div">
     <video width="100%" loop muted autoPlay>
-      <source src="../banner/bannervd22.mp4" type="video/mp4" />
+      <source src="/banner/bannervd22.mp4" type="video/mp4" />
     </video>
   </div>
 </section>
 {/* End Main Banner Area */}
+
 
 
 
